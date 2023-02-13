@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
 
     public static void task1 () {
@@ -60,11 +61,19 @@ public class Main {
         var boxerWeight2=82.7;
         var totalWeight = boxerWeight1 + boxerWeight2;
         System.out.println("Общий вес боксеров " + totalWeight +" кг");
-        var defferenceWeight1 =boxerWeight2 - boxerWeight1;
-        System.out.println("Разница в весе между боксерами (метод вычитания) " + defferenceWeight1 + " кг");
-        var defferenceWeight2 =boxerWeight2 % boxerWeight1;
-        System.out.println("Разница в весе между боксерами (метод функции остаток от деления)" + defferenceWeight2 + " кг");
+        var differenceWeight1 =boxerWeight2 - boxerWeight1;
+        System.out.println("Разница в весе между боксерами (метод вычитания) " + differenceWeight1 + " кг");
+        var differenceWeight2 =boxerWeight2 % boxerWeight1;
+        System.out.println("Разница в весе между боксерами (метод функции остаток от деления)" + differenceWeight2 + " кг");
     }
-
-
+    public static void task7 () {
+        var workingHours = 640;
+        var workingDay = 8;
+        var totalWorkers1 = workingHours / workingDay;
+        System.out.println("Всего работников в компании " + totalWorkers1 + " человек");
+        var increasedStaff = 94;
+        var totalWorkers2 = increasedStaff + totalWorkers1;
+        var totalWorkingHours = totalWorkers2 * workingDay;
+        System.out.println("Если в компании работает " + totalWorkers2 + " человек, то всего " + totalWorkingHours + " часов работы может быть поделено между сотрудниками");
+    }
 }
