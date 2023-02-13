@@ -10,6 +10,8 @@ public class Main {
         System.out.println(dog);
         dog=dog+4;
         System.out.println(dog);
+        dog = dog - 3.5;
+        System.out.println(dog);
 
     }
 
@@ -18,12 +20,15 @@ public class Main {
         System.out.println(cat);
         cat=cat+4;
         System.out.println(cat);
-
+        cat=cat-1.6;
+        System.out.println(cat);
     }
     public static void task3 () {
         var paper=763789;
         System.out.println(paper);
         paper=paper+4;
+        System.out.println(paper);
+        paper=paper-7639;
         System.out.println(paper);
 
     }
