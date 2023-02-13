@@ -3,6 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
     }
 
     public static void task1 () {
@@ -10,7 +11,7 @@ public class Main {
         System.out.println(dog);
         dog=dog+4;
         System.out.println(dog);
-        dog = dog - 3.5;
+        dog = (int) (dog - 3.5);
         System.out.println(dog);
 
     }
@@ -22,7 +23,9 @@ public class Main {
         System.out.println(cat);
         cat=cat-1.6;
         System.out.println(cat);
+
     }
+
     public static void task3 () {
         var paper=763789;
         System.out.println(paper);
@@ -32,4 +35,13 @@ public class Main {
         System.out.println(paper);
 
     }
+    public static void task4 () {
+        var friend=19;
+        System.out.println(friend);
+        friend=friend+2;
+        System.out.println(friend);
+        friend=friend/7;
+        System.out.println(friend);
+    }
+
 }
