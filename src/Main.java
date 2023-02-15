@@ -10,11 +10,11 @@ public class Main {
     }
 
     public static void task1 () {
-        var dog=8;
+        double dog=8;
         System.out.println(dog);
         dog=dog+4;
         System.out.println(dog);
-        dog = (int) (dog - 3.5);
+        dog = dog - 3.5;
         System.out.println(dog);
 
     }
